@@ -2,3 +2,5 @@ extraction:
     java:
         index:
             java_version: 7
+            build_command:
+            - ./gradlew --no-daemon -DskipWinNative=true build
